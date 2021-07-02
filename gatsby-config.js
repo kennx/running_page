@@ -4,6 +4,16 @@ module.exports = {
     title: 'Running page',
     siteUrl: 'https://kennx.github.io/running_page',
     description: 'Running page',
+    navLinks: [
+      {
+        name: 'Blog', 
+        url: 'https://github.com/kennx/running_page', 
+      },
+      {
+        name: 'About',
+        url: 'https://github.com/kennx/running_page',
+      },
+    ],
   },
   plugins: [
     'gatsby-transformer-json',
