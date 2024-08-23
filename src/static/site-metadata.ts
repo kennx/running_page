@@ -10,18 +10,18 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-  description: 'Personal site and blog',
+  siteTitle: '张远山在跑步',
+  siteUrl: 'https://a.niaoer.cc',
+  logo: 'src="data:image/png;base64,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"',
+  description: '张远山在跑步',
   navLinks: [
     {
-      name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
+      name: 'Twitter',
+      url: 'https://x.com/kennxxx9',
     },
     {
-      name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/outland_moutains_zh/.md',
     },
   ],
 };
